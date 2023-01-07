@@ -1,0 +1,553 @@
+body{
+    background-color:white;
+    height: 4000px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    justify-content: space-around;
+    padding:20px 0;
+    margin-top: -3px;
+    color: black;
+    position: fixed;
+    z-index: 8;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 30%;
+    justify-content: space-between;
+    font-family: 'Lobster', cursive;
+   
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+
+}
+nav .logo{
+    font-family: 'Righteous', cursive;
+    letter-spacing: 4px;
+    font-size: 15px;
+}
+.butten{
+    width:100px;
+    height:40px;
+    background-color:white;
+    border-radius: 4px;
+    margin-top: -7px;
+    margin-left: 25%;
+    line-height: 40px;
+    text-align:center;
+    font-size:15px;
+    box-shadow: 1px 1px 1px 1px black ;
+    color: black;
+}
+.butten1{
+    width:100px;
+    height:40px;
+    background-color: orangered;
+    border-radius: 4px;
+    margin-top: -7px;
+    margin-left: -50px;
+    line-height: 40px;
+    text-align:center;
+    font-size:15px;
+    color: aliceblue;
+}
+.apaaja{
+    width: 44%;
+    height: 400px;
+    margin-top: 70px;
+    background-color:white;
+    margin-left: 30px;
+    position: absolute;
+}
+h3{
+    text-align: left;
+    color: rgb(221, 111, 38);
+    line-height: 7;
+
+    
+}
+.apaaja1{
+    width: 50%;
+    height: 400px;
+    margin-top: 70px;
+    background-color:white;
+    margin-left: 48%;
+    position: absolute;
+}
+.gambar{
+    width: 60%;
+    height: 370px;
+    margin-top: 25px;
+    background-color:white;
+    margin-left: 20%;
+    border-radius: 300px;
+    position: absolute;
+    background-image: url(images.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: 0 -20px;
+    box-shadow: 40px -6px 10px 10px black;
+    z-index: 3;
+}
+h1{
+    margin-top: -50px;
+    font-size: 50px;
+}
+p{
+    margin-top: 20px;
+}
+.apaaja .butten3{
+    width: 200px;
+    height:40px;
+    background-color: rgb(43, 38, 37);
+    border-radius: 6px;
+    margin-top: 7%;
+    margin-left: 0%;
+    line-height: 40px;
+    text-align:center;
+    font-size:15px;
+    color: aliceblue;
+}
+.bawah{
+    background-color:white;
+    width: 100%;
+    height: 150px;
+    margin-top: 454px;
+    position: absolute;
+}
+.keterangan1{
+    background-color: rgb(202, 127, 29);
+    width: 30%;
+    height: 130px;
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 70px;
+}
+.bawah h1{
+    margin-top: 20px;
+    font-size: 50px;
+    margin-left: 30px;
+    color: beige;
+    font-size: 30px;
+}
+.bawah .p1{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: rgb(167, 167, 154);
+    font-size: 20px;
+}
+.keterangan2{
+    background-color: rgb(62, 214, 57);
+    width: 40%;
+    height: 130px;
+    margin-left: 34%;
+    margin-top: 70px;
+    position: absolute;
+    z-index: 1;
+    background-image: url(download.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: 0 -40px;
+}
+.keterangan3{
+    background-color: rgb(202, 50, 30);
+    width: 15%;
+    height: 130px;
+    margin-left: 75%;
+    margin-top: 70px;
+    position: absolute;
+    z-index: 1;
+    background-image: url(download\ \(1\).jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: -50px;
+}
+.searchkotak{
+    background-color: black;
+    width: 80%;
+    height: 260px;
+    margin-top: 800px;
+    margin-left: 130px;
+    position:absolute;
+}
+.searchkotak h1{
+    color: wheat;
+    line-height: 200px;
+    margin-left: 260px;
+
+}
+.menupencarian{
+    background-color:black;
+    width: 50%;
+    height: 60px;
+    margin: 50px auto;
+    margin-top: -20px;
+    box-shadow: 1px 1px white;
+}
+.menupencarian h4{
+    color: white;
+    line-height: 60px;
+    margin-left: 20px;
+}
+.kotakorange{
+    background-color:  orangered;
+    height: 50px;
+    width: 70px;
+    margin-left: auto;
+    margin-top: -60px;
+}
+.hitam{
+    background-color: black;
+    margin-top: 1260px;
+    width: 65%;
+    height: 430px;
+    position: absolute;
+    margin-left: 50px;
+}
+.foto{
+    background-color: rgb(30, 31, 31);
+    margin: 50px;
+    width: 35%;
+    height: 500px;
+    position: absolute;
+    margin-top: -0px;
+    margin-left: 900px;
+    background-image: url(nasgor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.butten5{
+    width:200px;
+    height:40px;
+    background-color: orangered;
+    border-radius: 4px;
+    margin-top: 450px;
+    color: white;
+}
+.satu{
+    background-color: black;
+    width: 50%;
+    height: 200px;
+    position: absolute;
+ 
+}
+.satu h1{
+    font-size: 35px;
+    margin-top: 20px;
+    color: white;
+    margin-left: 30px;
+}
+.dua{
+    background-color: black;
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    margin-top: 25%;
+ 
+}
+.dua h4{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.cover{
+    width: 200px;
+    height: 150px;
+    margin: 30px auto;
+    margin-top: -0px;
+    background-color: black;
+    margin-left:130px;
+}
+.cover p{
+    text-align: left;
+    color: rgb(247, 234, 218);
+    font-size: 16px;
+}
+.tiga{
+    background-color: black;
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 50%;
+ 
+}
+.tiga h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    
+
+}
+.cover1{
+    width: 200px;
+    height: 150px;
+    margin: 30px auto;
+    margin-top:20px;
+    background-color: black;
+    margin-left:100px;
+}
+.cover1 p{
+    text-align: left;
+    color: rgb(247, 234, 218);
+    font-size: 16px;
+}
+.empat{
+    background-color: black;
+    width: 50%;
+    height: 200px;
+    margin-top: -0;
+    position: absolute;
+    margin-left: 50%;
+ 
+}
+.empat h1{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 27px;
+    color: rgb(247, 234, 218);
+    
+}
+.bagianlogo{
+    background-color: white;
+    margin-left:10% ;
+    height: 100px;
+    position: absolute;
+    width: 77%;
+    margin-top: 1800px;
+}
+.bukti1{
+    width: 200px;
+    background-color: white;
+    height: 100px;
+}
+.bukti1 h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+}
+.bukti2{
+    width: 200px;
+    background-color: white;
+    height: 100px;
+    margin-left: 200px;
+    margin-top: -100px;
+}
+.bukti2 h1{
+    color: rgb(177, 171, 171);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 2px;
+    line-height: 100px;
+}
+.bukti3{
+    width: 200px;
+    background-color: white;
+    height: 100px;
+    margin-left: 400px;
+    margin-top: -100px;
+}
+.bukti3 h1{
+    color: rgb(27, 25, 25);
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+  
+}
+.bukti4{
+    width: 200px;
+    background-color: white;
+    height: 100px;
+    margin-left: 600px;
+    margin-top: -100px;
+}
+.bukti4 h1{
+    color: rgb(177, 171, 171);
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+}
+.bukti5{
+    width: 200px;
+    background-color: white;
+    height: 100px;
+    margin-left: 800px;
+    margin-top: -100px;
+}
+.bukti5 h1{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+}
+.penjelasankue{
+    background-color: rgb(231, 231, 238);
+    background-image: url(nasi\ goreng\ balado.jpg);
+    background-repeat: no-repeat;
+    background-size:430px;
+    margin-left:10% ;
+    height: 300px;
+    position: absolute;
+    width: 800px;
+    margin-top: 1900px;
+}
+.penjelasan{
+    width: 400px;
+    background-color: black;
+    height: 180px;
+    margin-left: 700px;
+    margin-top: 40px;
+    position: absolute;
+}
+.penjelasan h1{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    line-height: 180px;
+}
+.penjelasan p{
+    color: rgb(231, 231, 238);
+    font-size: 15px;
+    margin-top: -40px;
+    margin-left: 50px;
+}
+.penjelasankue2{
+    background-color: rgb(231, 231, 238);
+    background-image: url(nasi\ goreng\ udaang.jpg);
+    background-repeat: no-repeat;
+    background-size:500px;
+    background-position: 300px;
+    margin-left:33% ;
+    height: 300px;
+    position: absolute;
+    width: 800px;
+    margin-top: 2300px;
+}
+.penjelasan2{
+    width: 400px;
+    background-color: black;
+    height: 180px;
+    margin-left: -37%;
+    margin-top: 40px;
+    position: absolute;
+}
+.penjelasan2 h1{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    line-height: 180px;
+}
+.penjelasan2 p{
+    color: rgb(231, 231, 238);
+    font-size: 15px;
+    margin-top: -40px;
+    margin-left: 50px;
+}
+.penyatu{
+    background-color: white;
+    margin-left: 10%;
+    height: 500px;
+    position: absolute;
+    width: 80%;
+    margin-top: 2800px;
+}
+.shadow{
+    width: 50%;
+    height: 500px;
+    background-color: black;
+}
+.bordergambar{
+    width: 45%;
+    position: absolute;
+    margin-left: 23px;
+    margin-top: 28px;
+    height: 450px;
+    background-color: white;
+    background-image: url(nasgor_penyet-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: 20px 100px;
+    background-size: 400px;
+}
+.penjelasanborder{
+    background-color: white;
+    width: 40%;
+    height: 500px;
+    margin-left: 600px;
+    margin-top: -500px;
+}
+.penjelasanborder h1{
+    font-size: 45px;
+    text-align: left;
+}
+.penjelasanborder p{
+    color: black;
+}
+.butten22{
+    width: 200px;
+    height:40px;
+    background-color: rgb(43, 38, 37);
+    border-radius: 6px;
+    margin-top: 10%;
+    margin-left: 0%;
+    line-height: 40px;
+    text-align:center;
+    font-size:15px;
+    color: aliceblue;
+}
+.poto{
+    width: 100%;
+    margin-top: 30px;
+    height: 200px;
+    background-color: aqua;
+    background-image: url(nasgor\ ampela.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kotakorang{
+    background-color: rgb(243, 234, 234);
+    margin-left: 20%;
+    height: 400px;
+    position: absolute;
+    width: 60%;
+    margin-top: 3450px;
+    box-shadow: 10px 20px  rgb(209, 203, 203);
+}
+.kotakorang h1{
+    text-align: center;
+    margin-top: -100px;
+}
+.kotakorangpoto{
+    width: 40%;
+    height: 400px;
+    background-color: aqua;
+    background-image: url(IMG-20220504-WA0005.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -200px;
+    margin-top: 40px;
+}
+.penjelasanpoto{
+    background-color: rgb(243, 234, 234);
+    height: 300px;
+    width: 40% ;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 45%;
+}
+.penjelasanpoto h1{
+    text-align: left;
+    font-size: 40px;
+    margin-top: 60px;
+}
